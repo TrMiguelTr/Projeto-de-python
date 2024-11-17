@@ -11,7 +11,7 @@ root.title("Agendador de Tarefas")
 root.geometry("900x700")
 root.configure(bg="#f2f2f2")
 
-# Configuração do Banco de Dados (Para conectar tera que usar as imformações do Banco)
+# Configuração do Banco de Dados (Para conectar tera que usar as imformações do seu Banco)
 def conectar_bd():
     try:
         conexao = mysql.connector.connect(
